@@ -5,23 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="albatrostours">
+    <meta name="author" content="">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.ico">
-    <title>My Blog</title>
-<!--    <link href="assets/css/themify-icons.css" rel="stylesheet">-->
-<!--    <link href="assets/css/font-awesome.min.css" rel="stylesheet">-->
-<!--    <link href="assets/css/flaticon.css" rel="stylesheet">-->
-<!--    <link href="assets/css/bootstrap.min.css" rel="stylesheet">-->
-<!--    <link href="assets/css/animate.css" rel="stylesheet">-->
-<!--    <link href="assets/css/owl.carousel.css" rel="stylesheet">-->
-<!--    <link href="assets/css/owl.theme.css" rel="stylesheet">-->
-<!--    <link href="assets/css/slick.css" rel="stylesheet">-->
-<!--    <link href="assets/css/slick-theme.css" rel="stylesheet">-->
-<!--    <link href="assets/css/swiper.min.css" rel="stylesheet">-->
-<!--    <link href="assets/css/owl.transitions.css" rel="stylesheet">-->
-<!--    <link href="assets/css/jquery.fancybox.css" rel="stylesheet">-->
-<!--    <link href="assets/css/odometer-theme-default.css" rel="stylesheet">-->
-<!--    <link href="assets/css/jquery-ui.css" rel="stylesheet">-->
+    <title>Destination</title>
     <link href="assets/css/all.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
@@ -33,20 +19,38 @@
 
 
         <header id="header">
+
+            <div id="myDIV">
+                <button onclick="myFunction()" class="btn-close-pop"> X </button>
+                <a class="js-am-common-sale-top-banner" href="#">
+                    <div class="container-fluid">
+                        <span class="am-common-sale-top-banner__title">Deals of The Week:&nbsp;&nbsp;</span><span class="am-common-sale-top-banner__description">Experience Europe!&nbsp;&nbsp;</span>
+                        <span class="am-common-sale-top-banner__cta">Save up to 50%</span>
+                    </div>
+                </a>
+            </div>
+            <script>
+                function myFunction() {
+                    var element = document.getElementById("myDIV");
+                    element.classList.add("d-none");
+                }
+            </script>
+
+
+
             <div class="wpo-site-header wpo-header-style-2">
                 <div class="topbar">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col col-lg-7 col-md-8 col-sm-12 col-12 d-none d-sm-block">
+                            <div class="col col-lg-4 col-md-6 col-sm-12 col-12 d-none d-sm-block">
                                 <div class="contact-intro">
                                     <ul>
-                                        <li><i class="fi flaticon-email"></i>info@albatrostours.com</li>
-                                        <li><i class="fi flaticon-phone-call"></i> +2 (065) 3542 884</li>
-                                        <li><i class="fi ti-location-pin"></i> 9th El Obour Buildings, Salah Salem, Nasr City</li>
+                                        <li><i class="fi flaticon-email"></i> info@etbtours.com </li>
+                                        <li><i class="fi flaticon-phone-call"></i> +201021100873 </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col col-lg-5 col-md-4 col-sm-12 col-12">
+                            <div class="col col-lg-8 col-md-6 col-sm-12 col-12">
                                 <div class="contact-info">
                                     <div class="dropdown btn_lang">
                                         <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -71,14 +75,14 @@
                                             <li><a class="dropdown-item" href="#"> <i class="fa fa-jpy" aria-hidden="true"></i> Yen </a></li>
                                         </ul>
                                     </div>
+
+
+
                                     <div class="cart-toggle-btn">
-                                        <a href="#">
-                                            <i class="fa fa-heart-o"></i>
-                                            <span class="cart-count">2</span>
-                                        </a>
-                                    </div>
-                                    <div class="cart-toggle-btn" style="padding: 5px 10px 5px 10px;">
-                                        <a href="#"> My Blog </a>
+                                        <a href="#"> <i class="fa fa-user"></i> About Us</a>
+                                        <a href="#"> <i class="fa fa-support"></i> Contact Us</a>
+                                        <a href="#"> <i class="fa fa-question"></i> Terms of use</a>
+                                        <a href="#">  Transfers </a>
                                     </div>
                                 </div>
                             </div>
@@ -98,20 +102,19 @@
                                     </button>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-md-6 col-9">
+                            <div class="col-lg-2 col-md-9 col-9">
                                 <div class="navbar-header">
                                     <a class="navbar-brand" href="index.html">
                                         <img src="assets/images/logo.png" alt="">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-9 col-md-1 col-1">
+                            <div class="col-lg-9 col-md-1 show-tab col-1">
                                 <div id="navbar" class="collapse navbar-collapse navigation-holder">
                                     <button class="menu-close"><i class="ti-close"></i></button>
                                     <ul class="nav navbar-nav mb-2 mb-lg-0">
-                                        <li><a href="#"> Home </a></li>
                                         <li class="menu-item-has-children">
-                                            <a href="#">Egypt travel packages</a>
+                                            <a href="#"> Egypt Tours <i class="fa fa-angle-down"></i> </a>
                                             <ul class="sub-menu">
                                                 <li><a href="#">Egypt Luxury Tours</a></li>
                                                 <li><a href="#">Egypt Budget tours</a></li>
@@ -121,16 +124,17 @@
                                                 <li><a href="#">Small Group Packages</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#"> Egypt day tours </a></li>
-                                        <li><a href="#"> Nile Cruises </a></li>
-                                        <li><a href="#"> Shore Excursions </a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#"> Nile River Cruise </a></li>
+                                        <li><a href="#"> Day Tours </a></li>
+                                        <li><a href="#"> Egypt Shore Excursions </a></li>
+                                        <li><a href="#"> Spiritual & Pilgrimage Tours</a></li>
+                                        <li><a href="#"> Destination </a></li>
 
                                     </ul>
 
                                 </div><!-- end of nav-collapse -->
                             </div>
-                            <div class="col-lg-1 col-md-2 col-2 d-none d-lg-block">
+                            <div class="col-lg-1 col-md-2 col-2 d-md-none d-none d-lg-block">
                                 <div class="btn_inquire">
                                     <a href="#"> <i class="fa fa-briefcase" aria-hidden="true"></i> Inquire </a>
                                 </div>
@@ -146,10 +150,10 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="wpo-breadcumb-wrap">
-                            <h1>My Blog</h1>
+                            <h1>Destinations</h1>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><span>My Blog</span></li>
+                                <li><a href="index.html">Home</a></li>
+                                <li><span>Destinations</span></li>
                             </ul>
                         </div>
                     </div>
@@ -157,163 +161,180 @@
             </div>
         </div>
 
-
-
-        <section class="wpo-pricing-section section-padding">
+        <div class="wpo-select-section mt-4">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-6">
-                        <div class="wpo-section-title-s2">
-                            <h2>All Articles</h2>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="wpo-pricing-wrap">
-                    <div class="row">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="wpo-select-wrap">
+                            <div class="wpo-select-area">
+                                <form action="#" class="clearfix">
+                                    <div class="select-sub">
+                                        <!-- Datepicker as text field -->
+                                        <div class="input-group date">
+                                            <select class="form-control sel_input" name="category" id="parent-select">
+                                                <option value="0">Destination</option>
+                                                <option value="2">Egypt travel packages</option>
+                                                <option value="1">Egypt day tours</option>
+                                                <option value="3">Nile Cruises</option>
+                                                <option value="4">Egypt Shore Excursions</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="select-sub">
+                                        <!-- Datepicker as text field -->
+                                        <div class="input-group date">
+                                            <select class="form-control sel_input" name="sub_category" id="sub-select">
+                                                <option value="11">Egypt Luxury Tours</option>
+                                                <option value="12">Egypt family Tours</option>
+                                                <option value="13">Egypt Budget tours</option>
+                                                <option value="14">Egypt Short Break Travel Packages</option>
+                                                <option value="15">Wheelchair Users Travel to Egypt</option>
+                                                <option value="16">Egypt Classic Tours</option>
+                                                <option value="23">Women Travel Packages</option>
+                                                <option value="24">Small Group Travel Packages</option>
+                                                <option value="25">Egypt Honeymoon Travel Package</option>
+                                                <option value="26">Egypt Easter tours</option>
+                                                <option value="27">Egypt Adventure Tours</option>
+                                                <option value="31">Egypt Spiritual Tours</option>
+                                                <option value="32">Egypt Culture Tours</option>
+                                                <option value="33">Egypt Christmas tours</option>
+                                                <option value="34">Egypt new year packages</option>
+                                            </select>
 
-                        <div class="col col-lg-4 col-md-6 col-12 mb-4">
-                            <div class="wpo-pricing-item">
-                                <div class="wpo-pricing-top">
-                                    <div class="wpo-pricing-img">
-                                        <img src="assets/images/img-1.jpg" alt="">
+                                        </div>
                                     </div>
-                                    <div class="wpo-pricing-text">
-                                        <label></label>
-                                        <h4>Luxor and Aswan Attractions</h4>
+                                    <div class="select-sub">
+                                        <!-- Datepicker as text field -->
+                                        <div class="input-group date">
+                                            <select class="form-control sel_input" name="range">
+                                                <option value="0"> Select Price Range ? </option>
+                                                <option value="1"> Below $ 500 </option>
+                                                <option value="2"> $ 500 - $ 1000 </option>
+                                                <option value="3"> $ 1000 - $ 1500 </option>
+                                                <option value="4"> Above $ 1500 </option>
+                                            </select>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="wpo-pricing-bottom">
-                                    <div class="wpo-pricing-bottom-text">
-                                        <a class="theme-btn" href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-4 col-md-6 col-12 mb-4">
-                            <div class="wpo-pricing-item">
-                                <div class="wpo-pricing-top">
-                                    <div class="wpo-pricing-img">
-                                        <img src="assets/images/img-2.jpg" alt="">
-                                    </div>
-                                    <div class="wpo-pricing-text">
-                                        <label></label>
-                                        <h4>Luxor and Aswan Attractions</h4>
-                                    </div>
-                                </div>
-                                <div class="wpo-pricing-bottom">
-                                    <div class="wpo-pricing-bottom-text">
-                                        <a class="theme-btn" href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-4 col-md-6 col-12 mb-4">
-                            <div class="wpo-pricing-item">
-                                <div class="wpo-pricing-top">
-                                    <div class="wpo-pricing-img">
-                                        <img src="assets/images/img-3.jpg" alt="">
-                                    </div>
-                                    <div class="wpo-pricing-text">
-                                        <label></label>
-                                        <h4>Luxor and Aswan Attractions</h4>
-                                    </div>
-                                </div>
-                                <div class="wpo-pricing-bottom">
-                                    <div class="wpo-pricing-bottom-text">
-                                        <a class="theme-btn" href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-4 col-md-6 col-12 mb-4">
-                            <div class="wpo-pricing-item">
-                                <div class="wpo-pricing-top">
-                                    <div class="wpo-pricing-img">
-                                        <img src="assets/images/img-1.jpg" alt="">
-                                    </div>
-                                    <div class="wpo-pricing-text">
-                                        <label></label>
-                                        <h4>Luxor and Aswan Attractions</h4>
-                                    </div>
-                                </div>
-                                <div class="wpo-pricing-bottom">
-                                    <div class="wpo-pricing-bottom-text">
-                                        <a class="theme-btn" href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-4 col-md-6 col-12 mb-4">
-                            <div class="wpo-pricing-item">
-                                <div class="wpo-pricing-top">
-                                    <div class="wpo-pricing-img">
-                                        <img src="assets/images/img-2.jpg" alt="">
-                                    </div>
-                                    <div class="wpo-pricing-text">
-                                        <label></label>
-                                        <h4>Luxor and Aswan Attractions</h4>
-                                    </div>
-                                </div>
-                                <div class="wpo-pricing-bottom">
-                                    <div class="wpo-pricing-bottom-text">
-                                        <a class="theme-btn" href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-4 col-md-6 col-12 mb-4">
-                            <div class="wpo-pricing-item">
-                                <div class="wpo-pricing-top">
-                                    <div class="wpo-pricing-img">
-                                        <img src="assets/images/img-3.jpg" alt="">
-                                    </div>
-                                    <div class="wpo-pricing-text">
-                                        <label></label>
-                                        <h4>Luxor and Aswan Attractions</h4>
-                                    </div>
-                                </div>
-                                <div class="wpo-pricing-bottom">
-                                    <div class="wpo-pricing-bottom-text">
-                                        <a class="theme-btn" href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
+                                    <div class="select-sub">
+                                        <button class="theme-btn" type="submit">Check Availability</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+
+        <div class="wpo-destination-area mt-5">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-10 col-md-10 mb-3">
+                        <div class="text-center">
+                            <p>EtbTours Tours is proud to introduce the Club 60 dedicated to the older generation. You've heard that life begins at 50 well with EtbTours Tours Club 50 you will real feel that. With special programs to help you experience Egypt at your pace </p>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="destination-wrap">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="destination-item">
+                                <div class="destination-img">
+                                    <img src="assets/images/destination/5.jpg" alt="">
+                                </div>
+                                <div class="destination-content text-center">
+                                    <h2><a href="#">Marsa Alam</a></h2>
+                                    <p>EtbTours Tours is proud to introduce the Club 60 dedicated to the older generation</p>
+                                    <div class="destination-bottom">                                    
+                                        <a href="#" class="theme-btn m-auto mb-2 mt-2">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="destination-item">
+                                <div class="destination-img">
+                                    <img src="assets/images/destination/1.jpg" alt="">
+                                </div>
+                                <div class="destination-content text-center">
+                                    <h2><a href="#">Marsa Alam</a></h2>
+                                    <p>EtbTours Tours is proud to introduce the Club 60 dedicated to the older generation</p>
+                                    <div class="destination-bottom">                                    
+                                        <a href="#" class="theme-btn m-auto mb-2 mt-2">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="destination-item">
+                                <div class="destination-img">
+                                    <img src="assets/images/destination/3.jpg" alt="">
+                                </div>
+                                <div class="destination-content text-center">
+                                    <h2><a href="#">Marsa Alam</a></h2>
+                                    <p>EtbTours Tours is proud to introduce the Club 60 dedicated to the older generation</p>
+                                    <div class="destination-bottom">                                    
+                                        <a href="#" class="theme-btn m-auto mb-2 mt-2">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="destination-item">
+                                <div class="destination-img">
+                                    <img src="assets/images/destination/3.jpg" alt="">
+                                </div>
+                                <div class="destination-content text-center">
+                                    <h2><a href="#">Marsa Alam</a></h2>
+                                    <p>EtbTours Tours is proud to introduce the Club 60 dedicated to the older generation</p>
+                                    <div class="destination-bottom">                                    
+                                        <a href="#" class="theme-btn m-auto mb-2 mt-2">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="destination-item">
+                                <div class="destination-img">
+                                    <img src="assets/images/destination/4.jpg" alt="">
+                                </div>
+                                <div class="destination-content text-center">
+                                    <h2><a href="#">Marsa Alam</a></h2>
+                                    <p>EtbTours Tours is proud to introduce the Club 60 dedicated to the older generation</p>
+                                    <div class="destination-bottom">                                    
+                                        <a href="#" class="theme-btn m-auto mb-2 mt-2">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="destination-item">
+                                <div class="destination-img">
+                                    <img src="assets/images/destination/5.jpg" alt="">
+                                </div>
+                                <div class="destination-content text-center">
+                                    <h2><a href="#">Marsa Alam</a></h2>
+                                    <p>EtbTours Tours is proud to introduce the Club 60 dedicated to the older generation</p>
+                                    <div class="destination-bottom">                                    
+                                        <a href="#" class="theme-btn m-auto mb-2 mt-2">Book Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+        </div>
 
    
-        <section class="wpo-newslatter-section section-bg section-padding">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-7">
-                        <div class="wpo-section-title-s2">
-                            <h2>Subscribe &amp; Get Special Discount!</h2>
-                            <p>Don’t Wanna Miss Somethings? Subscribe Right Now And Get The Special
-                                Discount And Monthly Newsletter.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="wpo-newsletter">
-                    <div class="newsletter-form">
-                        <form>
-                            <input type="email" class="form-control" placeholder="Enter Your Email Address..." required="">
-                            <button type="submit">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-            </div> <!-- end container -->
-            <div class="n-shape">
-                <img src="assets/images/nshape1.png" alt="">
-            </div>
-            <div class="n-shape2">
-                <img src="assets/images/nshape2.png" alt="">
-            </div>
-        </section>
+
 
         <div class="container">
             <div class="section-padding pb-0">
@@ -488,9 +509,9 @@
                                 <p>Management consulting includes a broad range of activities, and the many firms and their members often define these practices.</p>
                                 <div class="contact-ft">
                                     <ul>
-                                        <li><i class="fi flaticon-placeholder"></i>9th El Obour Buildings, Salah Salem, Nasr City</li>
-                                        <li><i class="fi flaticon-phone-call"></i>(02) 22606082 / 22629616 </li>
-                                        <li><i class="fi flaticon-send"></i>operation@albatrostours.com</li>
+                                        <li><i class="fi flaticon-placeholder"></i>4 El Lebeny Axis, Nazlet Al Batran, Al Haram, Giza, Egypt</li>
+                                        <li><i class="fi flaticon-phone-call"></i>+201021100873  </li>
+                                        <li><i class="fi flaticon-send"></i>info@etbtours.com</li>
                                     </ul>
                                 </div>
 
@@ -522,27 +543,16 @@
                             <div class="widget link-widget s1">
 
                                 <div class="widget-title">
-                                    <h3> Albatros Tours</h3>
+                                    <h3> ETB TOURS</h3>
                                 </div>
                                 <ul>
                                     <li><a href="#" target="_blank">ABOUT US</a></li>
                                     <li><a href="#" target="_blank">WE ARE HIRING</a></li>
-                                    <li><a href="#" target="_blank">albatrostours REVIEWS</a></li>
+                                    <li><a href="#" target="_blank">etbtours REVIEWS</a></li>
                                     <li><a href="#" target="_blank">TERMS &amp; CONDITIONS</a></li>
                                     <li><a href="#" target="_blank">PRIVACY POLICIES</a></li>
                                     <li><a href="#" target="_blank">COPYRIGHT POLICIES</a></li>
                                     <li><a href="#" target="_blank">SUPPORT</a></li>
-                                </ul>
-                                <div class="widget-title mt-3">
-                                    <h3>Work With Us</h3>
-                                </div>
-                                <ul>
-                                    <li><a href="#"> Partner Solutions </a></li>
-                                    <li><a href="#"> Travel Agents </a></li>
-                                    <li><a href="#"> White Label Solutions </a></li>
-                                    <li><a href="#"> Marketing Solutions </a></li>
-                                    <li><a href="#" target="_blank">TERMS &amp; CONDITIONS</a></li>
-                                    <li><a href="#" target="_blank">PRIVACY POLICIES</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -559,16 +569,6 @@
                                     <li><a href="#"> Japan </a></li>
                                     <li><a href="#"> USA </a></li>
                                     <li><a href="#"> Amsterdam </a></li>
-                                    <li><a href="#"> Portugal </a></li>
-                                    <li><a href="#"> Cancún </a></li>
-                                    <li><a href="#"> Chicago </a></li>
-                                    <li><a href="#"> England </a></li>
-                                    <li><a href="#"> Tokyo </a></li>
-                                    <li><a href="#"> France </a></li>
-                                    <li><a href="#"> Thailand </a></li>
-                                    <li><a href="#"> Ireland </a></li>
-                                    <li><a href="#"> San Francisco </a></li>
-                                    <li><a href="#"> Los Angeles </a></li>
 
                                 </ul>
 
@@ -588,20 +588,6 @@
                                     <li><a href="#"> Family Holidays </a></li>
                                     <li><a href="#"> Festivals </a></li>
                                 </ul>
-                                <div class="widget-title mt-3">
-                                    <h3>Travel News</h3>
-                                </div>
-                                <ul>
-                                    <li><a href="#"> Food and Drink </a></li>
-                                    <li><a href="#"> Honeymoon and Romance </a></li>
-                                    <li><a href="#"> Road Trips </a></li>
-                                    <li><a href="#"> San Francisco </a></li>
-                                    <li><a href="#"> Los Angeles </a></li>
-                                    <li><a href="#"> Mexico </a></li>
-                                    <li><a href="#"> Sustainable Travel </a></li>
-                                    <li><a href="#"> Travel Gear and Tech </a></li>
-                                    <li><a href="#"> Travel on a Budget </a></li>
-                                </ul>
 
                             </div>
                         </div>
@@ -612,13 +598,84 @@
                 <div class="container">
                     <div class="row">
                         <div class="col col-xs-12">
-                            <p class="copyright"> Copyright &copy; 2022 Albatros Tours by <a href="#">SeoEra</a>. All Rights Reserved.</p>
+                            <p class="copyright"> Copyright &copy; 2022 by <a href="#">ETB TOURS</a>. All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
+        <div id="live-chat" class="d-none d-lg-block">
+            <header class="clearfix">
+                <a href="#" class="chat-close">x</a>
+                <h4>ETB TOURS</h4>
+                <span class="chat-message-counter">12</span>
+            </header>
+            <div class="chat" style="display: none">
+                <div class="chat-history">
+                    <div class="chat-message clearfix">
+                        <img src="assets/images/about.jpg" alt="" width="32" height="32">
+                        <div class="chat-message-content clearfix">
+                            <span class="chat-time">13:35</span>
+                            <h5>Mohamed Ahmed</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div> <!-- end chat-message-content -->
+                    </div> <!-- end chat-message -->
+                    <hr>
+                    <div class="chat-message clearfix">
+                        <img src="assets/images/about.jpg" alt="" width="32" height="32">
+                        <div class="chat-message-content clearfix">
+                            <span class="chat-time">13:35</span>
+                            <h5>Mohamed Ahmed</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div> <!-- end chat-message-content -->
+                    </div> <!-- end chat-message -->
+                    <hr>
+                    <div class="chat-message clearfix">
+                        <img src="assets/images/about.jpg" alt="" width="32" height="32">
+                        <div class="chat-message-content clearfix">
+                            <span class="chat-time">13:35</span>
+                            <h5>Mohamed Ahmed</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div> <!-- end chat-message-content -->
+                    </div> <!-- end chat-message -->
+                    <hr>
+                </div> <!-- end chat-history -->
+                <form action="#" method="post">
+                    <fieldset>
+                        <input type="text" placeholder="Mesajınızı Yazın" autofocus>
+                        <input type="hidden">
+                    </fieldset>
+                </form>
+            </div> <!-- end chat -->
+        </div>
 
+        <a href="#" class="icon-whats" data-bs-toggle="modal" data-bs-target="#MyModal">
+            <div class="text-center">
+                <i class="fa fa-whatsapp"></i>
+            </div>
+        </a>
+
+        <div class="modal fade" id="MyModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <ul class="w-list">
+                            <li>
+                                <a href="#" target="_blank" class="whats-lan"><i class="fa fa-whatsapp"></i>  English Department  </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" class="whats-lan"><i class="fa fa-whatsapp"></i> Departamento Español  </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" class="whats-lan"><i class="fa fa-whatsapp"></i> Dipartimento Italiano</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
     </div>
 
@@ -627,7 +684,54 @@
     <script src="assets/js/modernizr.custom.js"></script>
     <script src="assets/js/jquery-plugin-collection.js"></script>
     <script src="assets/js/custom-price-slider.js"></script>
+    <script src="assets/js/lightview.min.js"></script>
     <script src="assets/js/script.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".filter_btn").click(function(){
+                $("body").toggleClass("st-filter");
+            });
+            $(".btn_show").click(function(){
+                $(".bllock_icons_wheelchair").toggleClass("hid_icons");
+            });
+        });
+
+        function zoomIn() {
+            document.body.style.zoom = "125%";
+            $('body').addClass('st_zoom');
+        }
+        function zoomOut() {
+            document.body.style.zoom = "100%";
+            $('body').removeClass('st_zoom');
+        }
+
+
+    </script>
+
+    <script>
+        (function() {
+
+            $('#live-chat header').on('click', function() {
+
+                $('.chat').slideToggle(300, 'swing');
+                $('.chat-message-counter').fadeToggle(300, 'swing');
+
+            });
+
+            $('.chat-close').on('click', function(e) {
+
+                e.preventDefault();
+                $('#live-chat').fadeOut(300);
+
+            });
+
+        }) ();
+    </script>
+
+
+
 </body>
 
 </html>
+

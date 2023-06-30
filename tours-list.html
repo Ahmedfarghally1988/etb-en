@@ -5,23 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="albatrostours">
+    <meta name="author" content="">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.ico">
     <title>Tours</title>
-<!--    <link href="assets/css/themify-icons.css" rel="stylesheet">-->
-<!--    <link href="assets/css/font-awesome.min.css" rel="stylesheet">-->
-<!--    <link href="assets/css/flaticon.css" rel="stylesheet">-->
-<!--    <link href="assets/css/bootstrap.min.css" rel="stylesheet">-->
-<!--    <link href="assets/css/animate.css" rel="stylesheet">-->
-<!--    <link href="assets/css/owl.carousel.css" rel="stylesheet">-->
-<!--    <link href="assets/css/owl.theme.css" rel="stylesheet">-->
-<!--    <link href="assets/css/slick.css" rel="stylesheet">-->
-<!--    <link href="assets/css/slick-theme.css" rel="stylesheet">-->
-<!--    <link href="assets/css/swiper.min.css" rel="stylesheet">-->
-<!--    <link href="assets/css/owl.transitions.css" rel="stylesheet">-->
-<!--    <link href="assets/css/jquery.fancybox.css" rel="stylesheet">-->
-<!--    <link href="assets/css/odometer-theme-default.css" rel="stylesheet">-->
-<!--    <link href="assets/css/jquery-ui.css" rel="stylesheet">-->
     <link href="assets/css/all.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
@@ -33,20 +19,38 @@
 
 
         <header id="header">
+
+            <div id="myDIV">
+                <button onclick="myFunction()" class="btn-close-pop"> X </button>
+                <a class="js-am-common-sale-top-banner" href="#">
+                    <div class="container-fluid">
+                        <span class="am-common-sale-top-banner__title">Deals of The Week:&nbsp;&nbsp;</span><span class="am-common-sale-top-banner__description">Experience Europe!&nbsp;&nbsp;</span>
+                        <span class="am-common-sale-top-banner__cta">Save up to 50%</span>
+                    </div>
+                </a>
+            </div>
+            <script>
+                function myFunction() {
+                    var element = document.getElementById("myDIV");
+                    element.classList.add("d-none");
+                }
+            </script>
+
+
+
             <div class="wpo-site-header wpo-header-style-2">
                 <div class="topbar">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col col-lg-7 col-md-8 col-sm-12 col-12 d-none d-sm-block">
+                            <div class="col col-lg-4 col-md-6 col-sm-12 col-12 d-none d-sm-block">
                                 <div class="contact-intro">
                                     <ul>
-                                        <li><i class="fi flaticon-email"></i>info@albatrostours.com</li>
-                                        <li><i class="fi flaticon-phone-call"></i> +2 (065) 3542 884</li>
-                                        <li><i class="fi ti-location-pin"></i> 9th El Obour Buildings, Salah Salem, Nasr City</li>
+                                        <li><i class="fi flaticon-email"></i> info@etbtours.com </li>
+                                        <li><i class="fi flaticon-phone-call"></i> +201021100873 </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col col-lg-5 col-md-4 col-sm-12 col-12">
+                            <div class="col col-lg-8 col-md-6 col-sm-12 col-12">
                                 <div class="contact-info">
                                     <div class="dropdown btn_lang">
                                         <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -71,14 +75,14 @@
                                             <li><a class="dropdown-item" href="#"> <i class="fa fa-jpy" aria-hidden="true"></i> Yen </a></li>
                                         </ul>
                                     </div>
+
+
+
                                     <div class="cart-toggle-btn">
-                                        <a href="#">
-                                            <i class="fa fa-heart-o"></i>
-                                            <span class="cart-count">2</span>
-                                        </a>
-                                    </div>
-                                    <div class="cart-toggle-btn" style="padding: 5px 10px 5px 10px;">
-                                        <a href="#"> My Blog </a>
+                                        <a href="#"> <i class="fa fa-user"></i> About Us</a>
+                                        <a href="#"> <i class="fa fa-support"></i> Contact Us</a>
+                                        <a href="#"> <i class="fa fa-question"></i> Terms of use</a>
+                                        <a href="#">  Transfers </a>
                                     </div>
                                 </div>
                             </div>
@@ -98,111 +102,39 @@
                                     </button>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-md-6 col-9">
+                            <div class="col-lg-2 col-md-9 col-9">
                                 <div class="navbar-header">
                                     <a class="navbar-brand" href="index.html">
                                         <img src="assets/images/logo.png" alt="">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-9 col-md-1 col-1">
+                            <div class="col-lg-9 col-md-1 show-tab col-1">
                                 <div id="navbar" class="collapse navbar-collapse navigation-holder">
                                     <button class="menu-close"><i class="ti-close"></i></button>
                                     <ul class="nav navbar-nav mb-2 mb-lg-0">
-                                        <li><a href="#"> Home </a></li>
                                         <li class="menu-item-has-children">
-                                            <a href="#">Egypt travel packages</a>
-                                            <div class="sub-menu">
-                                            <div class="row">
-                                                <div class="col-md-9 col-lg-9">
-                                                    <div class="row m-0">
-                                                        <div class="col-md-2 item_mega_menu">
-                                                            <h4> Europe & Britain </h4>
-                                                            <a href="#">Italy</a>
-                                                            <a href="#">Albania</a>
-                                                            <a href="#">Bulgaria</a>
-                                                            <a href="#">Bulgaria</a>
-                                                            <a href="#">Faroe Islands</a>
-                                                            <a href="#">Northern Ireland</a>
-                                                            <a href="#">Namibia</a>
-                                                            <a href="#">Iceland</a>
-                                                        </div>
-                                                        <div class="col-md-2 item_mega_menu">
-                                                            <h4> Europe & Britain </h4>
-                                                            <a href="#">Italy</a>
-                                                            <a href="#">Albania</a>
-                                                            <a href="#">Bulgaria</a>
-                                                            <a href="#">Faroe Islands</a>
-                                                            <a href="#">Northern Ireland</a>
-                                                            <a href="#">Namibia</a>
-                                                            <a href="#">Namibia</a>
-                                                            <a href="#">Iceland</a>
-                                                        </div>
-                                                        <div class="col-md-2 item_mega_menu">
-                                                            <h4> North America </h4>
-                                                            <a href="#">Italy</a>
-                                                            <a href="#">Albania</a>
-                                                            <a href="#">Bulgaria</a>
-                                                            <a href="#">Faroe Islands</a>
-                                                            <a href="#">Faroe Islands</a>
-                                                            <a href="#">Northern Ireland</a>
-                                                            <a href="#">Namibia</a>
-                                                            <a href="#">Iceland</a>
-                                                        </div>
-                                                        <div class="col-md-2 item_mega_menu">
-                                                            <h4> Australia/Oceania </h4>
-                                                            <a href="#">Italy</a>
-                                                            <a href="#">Italy</a>
-                                                            <a href="#">Albania</a>
-                                                            <a href="#">Bulgaria</a>
-                                                            <a href="#">Faroe Islands</a>
-                                                            <a href="#">Northern Ireland</a>
-                                                            <a href="#">Namibia</a>
-                                                            <a href="#">Iceland</a>
-                                                        </div>
-                                                        <div class="col-md-2 item_mega_menu">
-                                                            <h4> Europe & Britain </h4>
-                                                            <a href="#">Italy</a>
-                                                            <a href="#">Albania</a>
-                                                            <a href="#">Bulgaria</a>
-                                                            <a href="#">Faroe Islands</a>
-                                                            <a href="#">Northern Ireland</a>
-                                                            <a href="#">Namibia</a>
-                                                            <a href="#">Namibia</a>
-                                                            <a href="#">Iceland</a>
-                                                        </div>
-                                                        <div class="col-md-2 item_mega_menu">
-                                                            <h4> North America </h4>
-                                                            <a href="#">Italy</a>
-                                                            <a href="#">Albania</a>
-                                                            <a href="#">Bulgaria</a>
-                                                            <a href="#">Faroe Islands</a>
-                                                            <a href="#">Faroe Islands</a>
-                                                            <a href="#">Northern Ireland</a>
-                                                            <a href="#">Namibia</a>
-                                                            <a href="#">Iceland</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 col-lg-3">
-                                                    <div class="img_mega_menu">
-                                                        <img src="assets/images/banner_menu.png">
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
+                                            <a href="#"> Egypt Tours <i class="fa fa-angle-down"></i> </a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">Egypt Luxury Tours</a></li>
+                                                <li><a href="#">Egypt Budget tours</a></li>
+                                                <li><a href="#">Egypt Short Break</a></li>
+                                                <li><a href="#">Egypt family Tours</a></li>
+                                                <li><a href="#">Wheelchair Packages</a></li>
+                                                <li><a href="#">Small Group Packages</a></li>
+                                            </ul>
                                         </li>
-                                        <li><a href="#"> Egypt day tours </a></li>
-                                        <li><a href="#"> Nile Cruises </a></li>
-                                        <li><a href="#"> Shore Excursions </a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="#"> Nile River Cruise </a></li>
+                                        <li><a href="#"> Day Tours </a></li>
+                                        <li><a href="#"> Egypt Shore Excursions </a></li>
+                                        <li><a href="#"> Spiritual & Pilgrimage Tours</a></li>
+                                        <li><a href="#"> Destination </a></li>
 
                                     </ul>
 
                                 </div><!-- end of nav-collapse -->
                             </div>
-                            <div class="col-lg-1 col-md-2 col-2 d-none d-lg-block">
+                            <div class="col-lg-1 col-md-2 col-2 d-md-none d-none d-lg-block">
                                 <div class="btn_inquire">
                                     <a href="#"> <i class="fa fa-briefcase" aria-hidden="true"></i> Inquire </a>
                                 </div>
@@ -270,9 +202,8 @@
                                     <div class="block_view_tour">
                                         <div class="row">
                                             <div class="col-lg-3 col-xl-3 col-12">
-                                                <div class="img_mian_block">
-                                                    <a href="#"> <img src="assets/images/hot-6.jpg"> </a>
-                                                    <a href="#">  <div class="icon_heart"><i class="fa fa-heart"></i></div> </a>
+                                                <div class="img_mian_block img-main-tours">
+                                                    <a href="#"> <img src="assets/images/hot-1.jpg"> </a>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-xl-6 col-12">
@@ -309,7 +240,6 @@
                                                 <div class="old_price">
                                                     <span>From: <b> $ 1500, 521 </b></span>
                                                     <label> us <b>$ 100.20</b> </label>
-                                                    <p> <i class="fa fa-check"></i> 5% deposit on some dates </p>
                                                     <a href="#" class="theme-btn m-auto">View Tour</a>
                                                 </div>
 
@@ -322,159 +252,8 @@
                                     <div class="block_view_tour">
                                         <div class="row">
                                             <div class="col-lg-3 col-xl-3 col-12">
-                                                <div class="img_mian_block">
-                                                    <a href="#"> <img src="assets/images/hot-5.jpg"> </a>
-                                                    <a href="#">  <div class="icon_heart"><i class="fa fa-heart"></i></div> </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-xl-6 col-12">
-                                                <div class="title_main_tour">
-                                                    <label><a href="#">Marsa Alam</a></label>
-                                                    <h3><a href="#">Egypt Explorer - Felucca cruise & Red Sea</a></h3>
-                                                    <div class="reating_tour">
-                                                        <ul>
-                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                            <li><span><i class="fa fa-star" aria-hidden="true"></i></span></li>
-                                                        </ul>
-                                                        <small>4.5</small>
-                                                    </div>
-                                                    <p>"Just as advertised, the tour itinerary contained all the highlights the tour itinerary contained all the highlights of Egypt in just..."</p>
-
-                                                    <div class="option_tour">
-                                                        <ul>
-                                                            <li><i class="fi flaticon-expand-arrows"></i>Meals Included</li>
-                                                            <li><i class="fi flaticon-bed"></i>2 Bed</li>
-                                                            <li><i class="fi flaticon-bathtub"></i>1 Bathroom</li>
-                                                        </ul>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-xl-3 col-12">
-
-
-                                                <div class="old_price">
-                                                    <span>From: <b> $ 1500, 521 </b></span>
-                                                    <label> us <b>$ 100.20</b> </label>
-                                                    <p> <i class="fa fa-check"></i> 5% deposit on some dates </p>
-                                                    <a href="#" class="theme-btn m-auto">View Tour</a>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-xl-12 col-md-12">
-                                    <div class="block_view_tour">
-                                        <div class="row">
-                                            <div class="col-lg-3 col-xl-3 col-12">
-                                                <div class="img_mian_block">
-                                                    <a href="#"> <img src="assets/images/hot-4.jpg"> </a>
-                                                    <a href="#">  <div class="icon_heart"><i class="fa fa-heart"></i></div> </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-xl-6 col-12">
-                                                <div class="title_main_tour">
-                                                    <label><a href="#">Marsa Alam</a></label>
-                                                    <h3><a href="#">Egypt Explorer - Felucca cruise & Red Sea</a></h3>
-                                                    <div class="reating_tour">
-                                                        <ul>
-                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                            <li><span><i class="fa fa-star" aria-hidden="true"></i></span></li>
-                                                        </ul>
-                                                        <small>4.5</small>
-                                                    </div>
-                                                    <p>"Just as advertised, the tour itinerary contained all the highlights the tour itinerary contained all the highlights of Egypt in just..."</p>
-
-                                                    <div class="option_tour">
-                                                        <ul>
-                                                            <li><i class="fi flaticon-expand-arrows"></i>Meals Included</li>
-                                                            <li><i class="fi flaticon-bed"></i>2 Bed</li>
-                                                            <li><i class="fi flaticon-bathtub"></i>1 Bathroom</li>
-                                                        </ul>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-xl-3 col-12">
-
-
-                                                <div class="old_price">
-                                                    <span>From: <b> $ 1500, 521 </b></span>
-                                                    <label> us <b>$ 100.20</b> </label>
-                                                    <p> <i class="fa fa-check"></i> 5% deposit on some dates </p>
-                                                    <a href="#" class="theme-btn m-auto">View Tour</a>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-xl-12 col-md-12">
-                                    <div class="block_view_tour">
-                                        <div class="row">
-                                            <div class="col-lg-3 col-xl-3 col-12">
-                                                <div class="img_mian_block">
-                                                    <a href="#"> <img src="assets/images/hot-3.jpg"> </a>
-                                                    <a href="#">  <div class="icon_heart"><i class="fa fa-heart"></i></div> </a>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 col-xl-6 col-12">
-                                                <div class="title_main_tour">
-                                                    <label><a href="#">Marsa Alam</a></label>
-                                                    <h3><a href="#">Egypt Explorer - Felucca cruise & Red Sea</a></h3>
-                                                    <div class="reating_tour">
-                                                        <ul>
-                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                                            <li><span><i class="fa fa-star" aria-hidden="true"></i></span></li>
-                                                        </ul>
-                                                        <small>4.5</small>
-                                                    </div>
-                                                    <p>"Just as advertised, the tour itinerary contained all the highlights the tour itinerary contained all the highlights of Egypt in just..."</p>
-
-                                                    <div class="option_tour">
-                                                        <ul>
-                                                            <li><i class="fi flaticon-expand-arrows"></i>Meals Included</li>
-                                                            <li><i class="fi flaticon-bed"></i>2 Bed</li>
-                                                            <li><i class="fi flaticon-bathtub"></i>1 Bathroom</li>
-                                                        </ul>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-3 col-xl-3 col-12">
-
-
-                                                <div class="old_price">
-                                                    <span>From: <b> $ 1500, 521 </b></span>
-                                                    <label> us <b>$ 100.20</b> </label>
-                                                    <p> <i class="fa fa-check"></i> 5% deposit on some dates </p>
-                                                    <a href="#" class="theme-btn m-auto">View Tour</a>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12 col-xl-12 col-md-12">
-                                    <div class="block_view_tour">
-                                        <div class="row">
-                                            <div class="col-lg-3 col-xl-3 col-12">
-                                                <div class="img_mian_block">
+                                                <div class="img_mian_block img-main-tours">
                                                     <a href="#"> <img src="assets/images/hot-2.jpg"> </a>
-                                                    <a href="#">  <div class="icon_heart"><i class="fa fa-heart"></i></div> </a>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-xl-6 col-12">
@@ -504,12 +283,13 @@
                                                 </div>
                                             </div>
                                             <div class="col-lg-3 col-xl-3 col-12">
-
+                                                <div class="price_main_tour">
+                                                    <div class="saving"><div class="p">-40%</div></div>
+                                                </div>
 
                                                 <div class="old_price">
                                                     <span>From: <b> $ 1500, 521 </b></span>
                                                     <label> us <b>$ 100.20</b> </label>
-                                                    <p> <i class="fa fa-check"></i> 5% deposit on some dates </p>
                                                     <a href="#" class="theme-btn m-auto">View Tour</a>
                                                 </div>
 
@@ -522,9 +302,8 @@
                                     <div class="block_view_tour">
                                         <div class="row">
                                             <div class="col-lg-3 col-xl-3 col-12">
-                                                <div class="img_mian_block">
-                                                    <a href="#"> <img src="assets/images/hot-1.jpg"> </a>
-                                                    <a href="#">  <div class="icon_heart"><i class="fa fa-heart"></i></div> </a>
+                                                <div class="img_mian_block img-main-tours">
+                                                    <a href="#"> <img src="assets/images/hot-3.jpg"> </a>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-xl-6 col-12">
@@ -554,12 +333,163 @@
                                                 </div>
                                             </div>
                                             <div class="col-lg-3 col-xl-3 col-12">
-
+                                                <div class="price_main_tour">
+                                                    <div class="saving"><div class="p">-40%</div></div>
+                                                </div>
 
                                                 <div class="old_price">
                                                     <span>From: <b> $ 1500, 521 </b></span>
                                                     <label> us <b>$ 100.20</b> </label>
-                                                    <p> <i class="fa fa-check"></i> 5% deposit on some dates </p>
+                                                    <a href="#" class="theme-btn m-auto">View Tour</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-xl-12 col-md-12">
+                                    <div class="block_view_tour">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-xl-3 col-12">
+                                                <div class="img_mian_block img-main-tours">
+                                                    <a href="#"> <img src="assets/images/hot-4.jpg"> </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-xl-6 col-12">
+                                                <div class="title_main_tour">
+                                                    <label><a href="#">Marsa Alam</a></label>
+                                                    <h3><a href="#">Egypt Explorer - Felucca cruise & Red Sea</a></h3>
+                                                    <div class="reating_tour">
+                                                        <ul>
+                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                            <li><span><i class="fa fa-star" aria-hidden="true"></i></span></li>
+                                                        </ul>
+                                                        <small>4.5</small>
+                                                    </div>
+                                                    <p>"Just as advertised, the tour itinerary contained all the highlights the tour itinerary contained all the highlights of Egypt in just..."</p>
+
+                                                    <div class="option_tour">
+                                                        <ul>
+                                                            <li><i class="fi flaticon-expand-arrows"></i>Meals Included</li>
+                                                            <li><i class="fi flaticon-bed"></i>2 Bed</li>
+                                                            <li><i class="fi flaticon-bathtub"></i>1 Bathroom</li>
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-xl-3 col-12">
+                                                <div class="price_main_tour">
+                                                    <div class="saving"><div class="p">-40%</div></div>
+                                                </div>
+
+                                                <div class="old_price">
+                                                    <span>From: <b> $ 1500, 521 </b></span>
+                                                    <label> us <b>$ 100.20</b> </label>
+                                                    <a href="#" class="theme-btn m-auto">View Tour</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-xl-12 col-md-12">
+                                    <div class="block_view_tour">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-xl-3 col-12">
+                                                <div class="img_mian_block img-main-tours">
+                                                    <a href="#"> <img src="assets/images/hot-5.jpg"> </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-xl-6 col-12">
+                                                <div class="title_main_tour">
+                                                    <label><a href="#">Marsa Alam</a></label>
+                                                    <h3><a href="#">Egypt Explorer - Felucca cruise & Red Sea</a></h3>
+                                                    <div class="reating_tour">
+                                                        <ul>
+                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                            <li><span><i class="fa fa-star" aria-hidden="true"></i></span></li>
+                                                        </ul>
+                                                        <small>4.5</small>
+                                                    </div>
+                                                    <p>"Just as advertised, the tour itinerary contained all the highlights the tour itinerary contained all the highlights of Egypt in just..."</p>
+
+                                                    <div class="option_tour">
+                                                        <ul>
+                                                            <li><i class="fi flaticon-expand-arrows"></i>Meals Included</li>
+                                                            <li><i class="fi flaticon-bed"></i>2 Bed</li>
+                                                            <li><i class="fi flaticon-bathtub"></i>1 Bathroom</li>
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-xl-3 col-12">
+                                                <div class="price_main_tour">
+                                                    <div class="saving"><div class="p">-40%</div></div>
+                                                </div>
+
+                                                <div class="old_price">
+                                                    <span>From: <b> $ 1500, 521 </b></span>
+                                                    <label> us <b>$ 100.20</b> </label>
+                                                    <a href="#" class="theme-btn m-auto">View Tour</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-xl-12 col-md-12">
+                                    <div class="block_view_tour">
+                                        <div class="row">
+                                            <div class="col-lg-3 col-xl-3 col-12">
+                                                <div class="img_mian_block img-main-tours">
+                                                    <a href="#"> <img src="assets/images/hot-6.jpg"> </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-xl-6 col-12">
+                                                <div class="title_main_tour">
+                                                    <label><a href="#">Marsa Alam</a></label>
+                                                    <h3><a href="#">Egypt Explorer - Felucca cruise & Red Sea</a></h3>
+                                                    <div class="reating_tour">
+                                                        <ul>
+                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                            <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                                                            <li><span><i class="fa fa-star" aria-hidden="true"></i></span></li>
+                                                        </ul>
+                                                        <small>4.5</small>
+                                                    </div>
+                                                    <p>"Just as advertised, the tour itinerary contained all the highlights the tour itinerary contained all the highlights of Egypt in just..."</p>
+
+                                                    <div class="option_tour">
+                                                        <ul>
+                                                            <li><i class="fi flaticon-expand-arrows"></i>Meals Included</li>
+                                                            <li><i class="fi flaticon-bed"></i>2 Bed</li>
+                                                            <li><i class="fi flaticon-bathtub"></i>1 Bathroom</li>
+                                                        </ul>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-xl-3 col-12">
+                                                <div class="price_main_tour">
+                                                    <div class="saving"><div class="p">-40%</div></div>
+                                                </div>
+
+                                                <div class="old_price">
+                                                    <span>From: <b> $ 1500, 521 </b></span>
+                                                    <label> us <b>$ 100.20</b> </label>
                                                     <a href="#" class="theme-btn m-auto">View Tour</a>
                                                 </div>
 
@@ -697,33 +627,7 @@
             </div>
         </div>
    
-        <section class="wpo-newslatter-section section-bg section-padding">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-7">
-                        <div class="wpo-section-title-s2">
-                            <h2>Subscribe &amp; Get Special Discount!</h2>
-                            <p>Don’t Wanna Miss Somethings? Subscribe Right Now And Get The Special
-                                Discount And Monthly Newsletter.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="wpo-newsletter">
-                    <div class="newsletter-form">
-                        <form>
-                            <input type="email" class="form-control" placeholder="Enter Your Email Address..." required="">
-                            <button type="submit">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-            </div> <!-- end container -->
-            <div class="n-shape">
-                <img src="assets/images/nshape1.png" alt="">
-            </div>
-            <div class="n-shape2">
-                <img src="assets/images/nshape2.png" alt="">
-            </div>
-        </section>
+
 
         <div class="container">
             <div class="section-padding pb-0">
@@ -898,9 +802,9 @@
                                 <p>Management consulting includes a broad range of activities, and the many firms and their members often define these practices.</p>
                                 <div class="contact-ft">
                                     <ul>
-                                        <li><i class="fi flaticon-placeholder"></i>9th El Obour Buildings, Salah Salem, Nasr City</li>
-                                        <li><i class="fi flaticon-phone-call"></i>(02) 22606082 / 22629616 </li>
-                                        <li><i class="fi flaticon-send"></i>operation@albatrostours.com</li>
+                                        <li><i class="fi flaticon-placeholder"></i>4 El Lebeny Axis, Nazlet Al Batran, Al Haram, Giza, Egypt</li>
+                                        <li><i class="fi flaticon-phone-call"></i>+201021100873  </li>
+                                        <li><i class="fi flaticon-send"></i>info@etbtours.com</li>
                                     </ul>
                                 </div>
 
@@ -932,27 +836,16 @@
                             <div class="widget link-widget s1">
 
                                 <div class="widget-title">
-                                    <h3> Albatros Tours</h3>
+                                    <h3> ETB TOURS</h3>
                                 </div>
                                 <ul>
                                     <li><a href="#" target="_blank">ABOUT US</a></li>
                                     <li><a href="#" target="_blank">WE ARE HIRING</a></li>
-                                    <li><a href="#" target="_blank">albatrostours REVIEWS</a></li>
+                                    <li><a href="#" target="_blank">etbtours REVIEWS</a></li>
                                     <li><a href="#" target="_blank">TERMS &amp; CONDITIONS</a></li>
                                     <li><a href="#" target="_blank">PRIVACY POLICIES</a></li>
                                     <li><a href="#" target="_blank">COPYRIGHT POLICIES</a></li>
                                     <li><a href="#" target="_blank">SUPPORT</a></li>
-                                </ul>
-                                <div class="widget-title mt-3">
-                                    <h3>Work With Us</h3>
-                                </div>
-                                <ul>
-                                    <li><a href="#"> Partner Solutions </a></li>
-                                    <li><a href="#"> Travel Agents </a></li>
-                                    <li><a href="#"> White Label Solutions </a></li>
-                                    <li><a href="#"> Marketing Solutions </a></li>
-                                    <li><a href="#" target="_blank">TERMS &amp; CONDITIONS</a></li>
-                                    <li><a href="#" target="_blank">PRIVACY POLICIES</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -969,16 +862,6 @@
                                     <li><a href="#"> Japan </a></li>
                                     <li><a href="#"> USA </a></li>
                                     <li><a href="#"> Amsterdam </a></li>
-                                    <li><a href="#"> Portugal </a></li>
-                                    <li><a href="#"> Cancún </a></li>
-                                    <li><a href="#"> Chicago </a></li>
-                                    <li><a href="#"> England </a></li>
-                                    <li><a href="#"> Tokyo </a></li>
-                                    <li><a href="#"> France </a></li>
-                                    <li><a href="#"> Thailand </a></li>
-                                    <li><a href="#"> Ireland </a></li>
-                                    <li><a href="#"> San Francisco </a></li>
-                                    <li><a href="#"> Los Angeles </a></li>
 
                                 </ul>
 
@@ -998,20 +881,6 @@
                                     <li><a href="#"> Family Holidays </a></li>
                                     <li><a href="#"> Festivals </a></li>
                                 </ul>
-                                <div class="widget-title mt-3">
-                                    <h3>Travel News</h3>
-                                </div>
-                                <ul>
-                                    <li><a href="#"> Food and Drink </a></li>
-                                    <li><a href="#"> Honeymoon and Romance </a></li>
-                                    <li><a href="#"> Road Trips </a></li>
-                                    <li><a href="#"> San Francisco </a></li>
-                                    <li><a href="#"> Los Angeles </a></li>
-                                    <li><a href="#"> Mexico </a></li>
-                                    <li><a href="#"> Sustainable Travel </a></li>
-                                    <li><a href="#"> Travel Gear and Tech </a></li>
-                                    <li><a href="#"> Travel on a Budget </a></li>
-                                </ul>
 
                             </div>
                         </div>
@@ -1022,13 +891,84 @@
                 <div class="container">
                     <div class="row">
                         <div class="col col-xs-12">
-                            <p class="copyright"> Copyright &copy; 2022 Albatros Tours by <a href="#">SeoEra</a>. All Rights Reserved.</p>
+                            <p class="copyright"> Copyright &copy; 2022 by <a href="#">ETB TOURS</a>. All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
+        <div id="live-chat" class="d-none d-lg-block">
+            <header class="clearfix">
+                <a href="#" class="chat-close">x</a>
+                <h4>ETB TOURS</h4>
+                <span class="chat-message-counter">12</span>
+            </header>
+            <div class="chat" style="display: none">
+                <div class="chat-history">
+                    <div class="chat-message clearfix">
+                        <img src="assets/images/about.jpg" alt="" width="32" height="32">
+                        <div class="chat-message-content clearfix">
+                            <span class="chat-time">13:35</span>
+                            <h5>Mohamed Ahmed</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div> <!-- end chat-message-content -->
+                    </div> <!-- end chat-message -->
+                    <hr>
+                    <div class="chat-message clearfix">
+                        <img src="assets/images/about.jpg" alt="" width="32" height="32">
+                        <div class="chat-message-content clearfix">
+                            <span class="chat-time">13:35</span>
+                            <h5>Mohamed Ahmed</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div> <!-- end chat-message-content -->
+                    </div> <!-- end chat-message -->
+                    <hr>
+                    <div class="chat-message clearfix">
+                        <img src="assets/images/about.jpg" alt="" width="32" height="32">
+                        <div class="chat-message-content clearfix">
+                            <span class="chat-time">13:35</span>
+                            <h5>Mohamed Ahmed</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        </div> <!-- end chat-message-content -->
+                    </div> <!-- end chat-message -->
+                    <hr>
+                </div> <!-- end chat-history -->
+                <form action="#" method="post">
+                    <fieldset>
+                        <input type="text" placeholder="Mesajınızı Yazın" autofocus>
+                        <input type="hidden">
+                    </fieldset>
+                </form>
+            </div> <!-- end chat -->
+        </div>
 
+        <a href="#" class="icon-whats" data-bs-toggle="modal" data-bs-target="#MyModal">
+            <div class="text-center">
+                <i class="fa fa-whatsapp"></i>
+            </div>
+        </a>
+
+        <div class="modal fade" id="MyModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <ul class="w-list">
+                            <li>
+                                <a href="#" target="_blank" class="whats-lan"><i class="fa fa-whatsapp"></i>  English Department  </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" class="whats-lan"><i class="fa fa-whatsapp"></i> Departamento Español  </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" class="whats-lan"><i class="fa fa-whatsapp"></i> Dipartimento Italiano</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
     </div>
 
@@ -1038,6 +978,52 @@
     <script src="assets/js/jquery-plugin-collection.js"></script>
     <script src="assets/js/custom-price-slider.js"></script>
     <script src="assets/js/script.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".filter_btn").click(function(){
+                $("body").toggleClass("st-filter");
+            });
+            $(".btn_show").click(function(){
+                $(".bllock_icons_wheelchair").toggleClass("hid_icons");
+            });
+        });
+
+        function zoomIn() {
+            document.body.style.zoom = "125%";
+            $('body').addClass('st_zoom');
+        }
+        function zoomOut() {
+            document.body.style.zoom = "100%";
+            $('body').removeClass('st_zoom');
+        }
+
+
+    </script>
+
+    <script>
+        (function() {
+
+            $('#live-chat header').on('click', function() {
+
+                $('.chat').slideToggle(300, 'swing');
+                $('.chat-message-counter').fadeToggle(300, 'swing');
+
+            });
+
+            $('.chat-close').on('click', function(e) {
+
+                e.preventDefault();
+                $('#live-chat').fadeOut(300);
+
+            });
+
+        }) ();
+    </script>
+
+
+
 </body>
 
 </html>
+
